@@ -1,0 +1,29 @@
+Source: kio-mtp
+Section: kde
+Priority: optional
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: Felix Geyer <fgeyer@debian.org>
+Build-Depends: debhelper (>= 9), pkg-kde-tools, cmake, kdelibs5-dev, libmtp-dev
+Standards-Version: 3.9.4
+Homepage: https://projects.kde.org/projects/playground/base/kio-mtp
+
+Package: kio-mtp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: mtp KIO slave
+ This KIO slave enables KDE applications to access
+ files stored on devices that provide access to them
+ via the MTP protocol.
+
+Package: kio-mtp-dbg
+Architecture: any
+Depends: kio-mtp, ${misc:Depends}
+Section: debug
+Priority: extra
+Description: debugging symbols for the mtp KIO slave
+ This KIO slave enables KDE applications to access
+ files stored on devices that provide access to them
+ via the MTP protocol.
+ .
+ This package contains debugging files used to investigate problems with
+ binaries included in the mtp KIO slave.
