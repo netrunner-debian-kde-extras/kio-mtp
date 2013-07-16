@@ -10,20 +10,20 @@ Homepage: https://projects.kde.org/projects/playground/base/kio-mtp
 Package: kio-mtp
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: mtp KIO slave
- This KIO slave enables KDE applications to access
- files stored on devices that provide access to them
- via the MTP protocol.
+Description: access to MTP devices for applications using the KDE Platform
+ This package includes the MTP KIO plugin. It allows applications using
+ the KDE Platform to access files stored on devices that provide access to
+ them via the MTP protocol.
+ .
+ The Media Transfer Protocol (commonly referred to as MTP) is a devised set
+ of custom extensions to support the transfer of music files on USB digital
+ audio players and movie files on USB portable media players.
 
 Package: kio-mtp-dbg
 Architecture: any
 Depends: kio-mtp, ${misc:Depends}
 Section: debug
 Priority: extra
-Description: debugging symbols for the mtp KIO slave
- This KIO slave enables KDE applications to access
- files stored on devices that provide access to them
- via the MTP protocol.
- .
+Description: debugging symbols for the MTP KIO plugin
  This package contains debugging files used to investigate problems with
- binaries included in the mtp KIO slave.
+ the MTP KIO plugin.
