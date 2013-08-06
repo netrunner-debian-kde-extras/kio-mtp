@@ -7,7 +7,7 @@ Files: *
 Copyright: 2012, Philipp Schmidt <philschmidt@gmx.net>
 License: GPL-2+
 
-Files: cmake/modules/FindUDev.cmake
+Files: cmake/modules/*
 Copyright: 2010, Rafael Fernández López <ereslibre@kde.org>
 License: BSD-3-clause
 
