@@ -1,5 +1,5 @@
 kio-mtp (0.75+git20130806-1) UNRELEASED; urgency=low
 
-  * Inital release. (Closes: #717104)
+  * Initial release. (Closes: #717104)
 
  -- Felix Geyer <fgeyer@debian.org>  Tue, 16 Jul 2013 21:48:57 +0200
