@@ -1,3 +1,9 @@
+kio-mtp (0.75+git20130806-2) UNRELEASED; urgency=low
+
+  * Tighten dependency of kio-mtp-dbg on kio-mtp, thanks to Ansgar Burchardt.
+
+ -- Felix Geyer <fgeyer@debian.org>  Wed, 07 Aug 2013 08:03:02 +0200
+
 kio-mtp (0.75+git20130806-1) unstable; urgency=low
 
   * Initial release. (Closes: #717104)

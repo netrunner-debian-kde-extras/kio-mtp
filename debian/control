@@ -21,7 +21,7 @@ Description: access to MTP devices for applications using the KDE Platform
 
 Package: kio-mtp-dbg
 Architecture: any
-Depends: kio-mtp, ${misc:Depends}
+Depends: kio-mtp (= ${binary:Version}), ${misc:Depends}
 Section: debug
 Priority: extra
 Description: debugging symbols for the MTP KIO plugin
