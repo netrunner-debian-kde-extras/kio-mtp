@@ -5,6 +5,8 @@ kio-mtp (0.75+git20130806-2) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Add the pkg-config build dependency.
+  * Install everything directly in the destdir of kio-mtp; this avoids
+    maintaining a kio-mtp.install.
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Wed, 07 Aug 2013 08:03:02 +0200
 
