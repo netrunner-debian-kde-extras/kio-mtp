@@ -1,4 +1,4 @@
-kio-mtp (0.75+git20130806-2) UNRELEASED; urgency=low
+kio-mtp (0.75+git20130806-2) unstable; urgency=low
 
   [ Felix Geyer ]
   * Tighten dependency of kio-mtp-dbg on kio-mtp, thanks to Ansgar Burchardt.
@@ -9,7 +9,7 @@ kio-mtp (0.75+git20130806-2) UNRELEASED; urgency=low
     maintaining a kio-mtp.install.
   * Add Vcs-* headers.
 
- -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Wed, 07 Aug 2013 08:03:02 +0200
+ -- Felix Geyer <fgeyer@debian.org>  Mon, 26 Aug 2013 19:22:03 +0200
 
 kio-mtp (0.75+git20130806-1) unstable; urgency=low
 
