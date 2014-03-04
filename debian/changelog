@@ -2,6 +2,7 @@ kio-mtp (0.75+git20140304-1) UNRELEASED; urgency=medium
 
   * New upstream release, including l10n.
     - Fixes folder creation.
+  * Bump Standards-Version to 3.9.5, no changes needed.
 
  -- Felix Geyer <fgeyer@debian.org>  Tue, 04 Mar 2014 20:13:28 +0100
 
