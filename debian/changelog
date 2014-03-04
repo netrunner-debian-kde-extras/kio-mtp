@@ -1,3 +1,10 @@
+kio-mtp (0.75+git20140304-1) UNRELEASED; urgency=medium
+
+  * New upstream release, including l10n.
+    - Fixes folder creation.
+
+ -- Felix Geyer <fgeyer@debian.org>  Tue, 04 Mar 2014 20:13:28 +0100
+
 kio-mtp (0.75+git20130806-2) unstable; urgency=low
 
   [ Felix Geyer ]
