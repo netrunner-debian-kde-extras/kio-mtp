@@ -12,7 +12,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kio-mtp.git;
 
 Package: kio-mtp
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, kio-extras-data
 Description: access to MTP devices for applications using the KDE Platform
  This package includes the MTP KIO plugin. It allows applications using
  the KDE Platform to access files stored on devices that provide access to
