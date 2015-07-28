@@ -1,9 +1,9 @@
-kio-mtp (0.75+git20140304-2) UNRELEASED; urgency=medium
+kio-mtp (0.75+git20140304-2) unstable; urgency=medium
 
-  * Don't install the translations anymore.
+  * Don't install the translations anymore. (Closes: #793887)
   * Add a dependency on kio-extras-data which includes the translations.
 
- -- Felix Geyer <fgeyer@debian.org>  Tue, 28 Jul 2015 18:30:51 +0200
+ -- Felix Geyer <fgeyer@debian.org>  Tue, 28 Jul 2015 18:37:18 +0200
 
 kio-mtp (0.75+git20140304-1) unstable; urgency=medium
 
